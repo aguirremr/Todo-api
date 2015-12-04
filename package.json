@@ -1,16 +1,29 @@
 {
   "name": "todo-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "todo-api",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.13.3",
+    "body-parser": "^1.14.1",
     "express": "^4.13.3",
+    "expressr": "0.0.1",
+    "sequelize": "^3.14.2",
+    "sqlite3": "^3.1.1",
     "underscore": "^1.8.3"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aguirremr/Todo-api.git"
+  },
+  "author": "Marlon Aguirre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aguirremr/Todo-api/issues"
+  },
+  "homepage": "https://github.com/aguirremr/Todo-api#readme"
 }
